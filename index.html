@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Bookmark - Google Extension</title>
+    <style>
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        #page-wrap {
+            display: flex;
+            flex-direction: column;
+            min-height: 100%;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            flex: 1; /* This will allow the container to grow and consume available space */
+        }
+
+        h2 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            display: block;
+            margin: 0 auto;
+            width: 128px;
+            height: 128px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .screenshot-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .screenshot {
+        flex: 1;
+        margin: 0 5px;
+        width: calc(33.33% - 10px); /* distribute the width among three screenshots minus margins */
+        height: auto; /* maintain aspect ratio */
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .download-link {
+        display: block;
+        background-color: #4CAF50; /* Change to preferred color */
+        color: white;
+        text-align: center;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin: 20px auto;
+        max-width: 200px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+
+    .download-link:hover {
+        background-color: #45a049; /* Change to preferred color */
+    }
+    </style>
+</head>
+
+<body>
+    <div id="page-wrap">
+        <header>
+            <h1>ChatGPT Bookmark</h1>
+            <img src="icon128.png" alt="ChatGPT Bookmark Logo" class="logo">
+        </header>
+        <div class="container">
+            <h2>About the Extension</h2>
+            <p>
+                <b>ChatGPT Bookmark</b>  is a Google Extension designed to help you bookmark your ChatGPT chats. This tool becomes
+                invaluable when you need a single place to reference your work, especially if you intend to continue a
+                particular chat session later.
+            </p>
+
+            <!-- Screenshot Section -->
+            <div class="screenshot-section">
+                <img src="img1.png" alt="Screenshot 1" class="screenshot">
+                <img src="img2.png" alt="Screenshot 2" class="screenshot">
+            </div>
+
+            <!-- Download Link -->
+            <a href="https://chrome.google.com/webstore/link_to_your_extension" target="_blank" class="download-link">Click here to download the extension.</a>
+        
+
+            <h2>Privacy Policy</h2>
+            <p>
+                We value your privacy. <b>ChatGPT Bookmark</b> uses your browser's local storage (similar to cookies) to store
+                active tab URLs. Please rest assured, no personal or user-specific information is gathered from this
+                application.
+            </p>
+        </div>
+
+        <footer>
+            For any inquiries, please email: <a href="mailto:romainob98@gmail.com">romainob98@gmail.com</a>
+        </footer>
+    </div>
+</body>
+
+</html>
